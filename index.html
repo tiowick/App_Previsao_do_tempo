@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>Previsão do tempo</title>
 </head>
+
 <body>
-    <div>
-        <input placeholder="Digite o nome da cidade">
-        
-        <button>Buscar</button>
+    <div class="box-max">
+        <input class="input-city" placeholder="Digite o nome da cidade">
 
-        <h2>Tempo em Salvador</h2>
+        <button class="button-find">
+            <img class="img-find" alt="Buscar" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
 
-        <p>21 ºC</p>
 
-        <img alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png"> <p>Nublado</p>
+        <div class="medium-box">
+            <h2 class="city">Tempo em Salvador</h2>
 
-        <p>Umidade: 75%</p>
+            <p class="temp">21 ºC</p>
+        </div>
+
+
+        <div class="box-min">
+            <img class="forecast" alt="icone-info-tempo" src="https://openweathermap.org/img/wn/04n.png">
+            
+            <p class="text-forecast">Nublado</p>
+        </div>
+
+        <p class="moisture">Umidade: 75%</p>
+
     </div>
 </body>
+
 </html>
