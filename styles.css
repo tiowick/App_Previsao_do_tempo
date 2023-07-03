@@ -79,6 +79,7 @@ body {
 .text-forecast{
     color: #FFFF;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .moisture{
